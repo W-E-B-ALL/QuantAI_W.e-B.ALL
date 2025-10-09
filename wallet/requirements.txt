@@ -1,0 +1,12 @@
+pandas
+numpy
+yfinance
+requests
+matplotlib
+seaborn
+plotly
+cvxpy
+PyPortfolioOpt
+scipy
+jupyter
+python-dotenv
