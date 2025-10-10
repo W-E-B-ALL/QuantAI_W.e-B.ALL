@@ -6,9 +6,10 @@
 O projeto **Carteira Diversificada** é um framework quantitativo desenvolvido para automatizar a construção de portfólios de investimento personalizados com base no perfil, idade e objetivos do investidor.  
 O objetivo central é transformar o processo de alocação de ativos em uma **estrutura sistemática, objetiva e replicável**, substituindo decisões intuitivas por métricas verificáveis e métodos quantitativos sólidos.
 
-Para especializações técnicas e aprofundamento teórico da solução computacional aprimorada, acesse as documentações abaixo!
-Definição teórica : https://docs.google.com/document/d/1CgBhhni9QJSXMyYvoJFjYaWu1Rm_UzxiCMTPq6gGuuE/edit?usp=sharing
-Detalhes técnicos e objetivos: 
+Para especializações técnicas e aprofundamento teórico da solução computacional aprimorada, acesse as documentações abaixo!\
+
+[Documentação teórica](https://docs.google.com/document/d/1CgBhhni9QJSXMyYvoJFjYaWu1Rm_UzxiCMTPq6gGuuE/edit?usp=sharing)
+
 ---
 
 ## Contexto e Motivação
@@ -117,7 +118,7 @@ Implementa o **modelo de Markowitz** e resolve o problema de **programação qua
 
 ---
 
-### 📊 d) Reporting (Relatórios e Visualização)
+### d) Reporting (Relatórios e Visualização)
 Responsável pela geração de relatórios e gráficos para interpretação dos resultados.  
 Consolida métricas de risco-retorno, fronteira eficiente e alocações finais.
 
