@@ -1,0 +1,17 @@
+Dúvidas em relação ao framework financeiro:
+
+Sobre a coleta de dados:
+->Os dados estão sendo coletados via yahoo e bcb em ambiente de testes por enquanto. De qual modo podemos realizar um teste em ambiente de produção na versão final do framework?
+
+Sobre o drift:
+
+->O drift da carteira é calculado com base nos últimos 90 dias. A janela de tempo está adequada?
+
+->Na estrutura atual do sistema, o drift é calculado sobre todos os ativos da carteira, e retorna o efeito da participação relativa dentro da carteira. Seria necessário explicitar a valorização real do ativo?
+
+->Quando o drift ultrapassar a tolerância, devemos, por meio do rebalanceamento, recalcular uma nova alocação ótima (Markowitz) ou apenas rebalancear a carteira para os pesos originais?
+	*Dúvida crucial para o modúlo de monitoramento da carteira
+
+->A tolerância do drift esta setada para ate 5%, há necessidade de ajustar esse valor?
+
+

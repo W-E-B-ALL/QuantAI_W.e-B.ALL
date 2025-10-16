@@ -21,7 +21,7 @@ def fetch_yahoo_data(start="2015-01-01", end=None, interval="1mo"):
     all_data = pd.DataFrame()
 
     for nome, code in tickers.items():
-        print(f"📥 Baixando {nome} ({code}) ...")
+        print(f"Baixando {nome} ({code}) ...")
         try:
             # usa Close (ajustado automaticamente)
             df = yf.download(code, start=start, end=end, interval=interval, progress=False)
